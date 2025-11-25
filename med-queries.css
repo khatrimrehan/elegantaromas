@@ -606,4 +606,16 @@
          margin-left: 260px
       }
    }
+    
+      .box1,
+   .box2,
+   .box3,
+   .box4 {
+      
+
+      height: 275px;
+      width: 275px;
+
+
+   }
 }
