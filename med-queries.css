@@ -126,7 +126,7 @@
       width: 312px;
    }
 
-    .left ul>a>i {
+   .left ul>a>i {
       display: block;
    }
 
@@ -188,15 +188,20 @@
    }
 
 }
-@media (max-width: 690px) {
- .box1, .box2 , .box3 , .box4 {
-height: 255px;
-  width: 255px;
- }
-}
-@media (max-width: 565px) {
 
+@media (max-width: 690px) {
+
+   .box1,
+   .box2,
+   .box3,
+   .box4 {
+      height: 255px;
+      width: 255px;
+   }
 }
+
+@media (max-width: 565px) {}
+
 @media (max-width: 635px) {
 
    .center {
@@ -207,18 +212,18 @@ height: 255px;
       font-size: 55px;
    }
 
-  
-   
 
 
-  
+
+
+
 
    .teext>h4 {
       filter: brightness(100%);
    }
 
-  
-   
+
+
 
    .shop a {
       font-size: 12px;
@@ -233,47 +238,52 @@ height: 255px;
 
 
 @media (max-width: 550px) {
-   .lrg-txt h1{
+   .lrg-txt h1 {
       padding-bottom: 40px;
       font-size: 65px;
       padding-right: 0;
       font-weight: 300;
    }
 
-   .products .heading h5{
+   .products .heading h5 {
       padding-left: 10px;
       padding-bottom: 15px;
    }
-   .content2{
+
+   .content2 {
       padding-top: 25px;
       margin: 0;
       overflow: hidden;
-       width: 96.5%;
+      width: 96.5%;
       margin: auto;
    }
 
-   .boxes{
+   .boxes {
       justify-content: start;
       flex-wrap: nowrap;
       white-space: nowrap;
       overflow: auto;
       overflow-y: hidden;
       padding-left: 0px;
-        
-      
+
+
    }
+
    .box1,
    .box2,
    .box3,
    .box4 {
       display: inline-block;
       overflow: hidden;
-      
-      
+
+      height: 355px;
+      width: 355px;
+
+
    }
 
-  
-   #banner1{
+
+   #banner1 {
       height: 375px;
    }
 
@@ -282,7 +292,7 @@ height: 255px;
 
    .box1 {
 
-      
+
 
       & h5 {
          margin-left: 350px
@@ -291,7 +301,7 @@ height: 255px;
 
    .box2 {
 
-      
+
 
       & h5 {
          margin-left: 350px
@@ -300,7 +310,7 @@ height: 255px;
 
    .box3 {
 
-      
+
 
       & h5 {
          margin-left: 350px
@@ -309,7 +319,7 @@ height: 255px;
 
    .box4 {
 
-      
+
 
       & h5 {
          margin-left: 350px
@@ -326,12 +336,12 @@ height: 255px;
       color: white;
    }
 
-   .write{
+   .write {
       padding-top: 50px;
       padding-bottom: 40px;
    }
 
-   .write .wte p{
+   .write .wte p {
       font-size: 20px;
       line-height: 27px;
    }
@@ -348,7 +358,7 @@ height: 255px;
 
    .box1 {
 
-    
+
 
       & h5 {
          margin-left: 340px
@@ -357,7 +367,7 @@ height: 255px;
 
    .box2 {
 
-      
+
       & h5 {
          margin-left: 340px
       }
@@ -365,7 +375,7 @@ height: 255px;
 
    .box3 {
 
-    
+
 
       & h5 {
          margin-left: 340px
@@ -374,7 +384,7 @@ height: 255px;
 
    .box4 {
 
-     
+
 
       & h5 {
          margin-left: 340px
@@ -422,14 +432,15 @@ height: 255px;
       font-weight: 400;
       padding-bottom: 60px;
    }
-   .content{
+
+   .content {
       padding-bottom: 10px;
    }
 
 
    .box1 {
 
-    
+
       & h5 {
          margin-left: 305px
       }
@@ -437,7 +448,7 @@ height: 255px;
 
    .box2 {
 
-    
+
 
       & h5 {
          margin-left: 305px
@@ -446,7 +457,7 @@ height: 255px;
 
    .box3 {
 
-  
+
 
       & h5 {
          margin-left: 305px
@@ -455,7 +466,7 @@ height: 255px;
 
    .box4 {
 
-     
+
 
       & h5 {
          margin-left: 305px
@@ -506,7 +517,7 @@ height: 255px;
 
    .box4 {
 
-    
+
 
       & h5 {
          margin-left: 280px
@@ -522,7 +533,7 @@ height: 255px;
       color: white;
    }
 
-  
+
 }
 
 @media (max-width: 380px) {
@@ -539,16 +550,17 @@ height: 255px;
       color: white;
    }
 
-     .write{
+   .write {
       padding-top: 30px;
       padding-bottom: 20px;
       gap: 30px
    }
+
    .write .wte p {
       font-size: 18px;
       line-height: 24px;
    }
- 
+
 
 }
 
@@ -560,11 +572,11 @@ height: 255px;
       padding-bottom: 30px;
    }
 
- 
+
 
    .box1 {
 
-     
+
       & h5 {
          margin-left: 260px
       }
@@ -572,7 +584,7 @@ height: 255px;
 
    .box2 {
 
-      
+
 
       & h5 {
          margin-left: 260px
@@ -588,13 +600,10 @@ height: 255px;
 
    .box4 {
 
-     
+
 
       & h5 {
          margin-left: 260px
       }
    }
 }
-
-
-
