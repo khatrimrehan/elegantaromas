@@ -1,0 +1,137 @@
+@media (max-width: 1670px) {
+    .products .heading h5 {
+        padding-left: 6px;
+    }
+}
+
+@media (max-width: 1176px) {
+    .row {
+        width: 90%;
+        grid-template-columns: 1fr;
+
+    }
+
+    .content22 {
+        padding-top: 8px;
+    }
+
+    .products .heading h5 {
+        padding-bottom: 20px;
+    }
+
+
+
+    .right-221 .content {
+        padding: 0;
+        margin: auto;
+        width: 99%;
+    }
+
+    .row {
+        gap: 20px;
+    }
+
+    .row .left {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .hero {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+
+@media (max-width: 640px) {
+   
+
+    .row {
+        gap: 9.7px;
+    }
+
+    .prt-1 {
+        gap: 10px;
+    }
+
+    .text {
+        padding-top: 10px;
+    }
+
+    .txt-1 {
+        font-size: 28px;
+    }
+
+    .txt1-1 {
+        font-size: 12px;
+    }
+
+    .amount {
+        font-size: 27px;
+    }
+
+    .rupee-32,
+    .rupee-12 {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .row .left {
+        height: 493px;
+    }
+    .text24 {
+        gap: 7px;
+    }
+
+    .price {
+        padding-top: 5px;
+    }
+}
+
+@media (max-width: 560px) {
+    .row .left {
+        height: 393px;
+    }
+}
+
+@media (max-width: 380px) {
+    .row .left {
+        height: 323px;
+    }
+
+    .txt-1 {
+        font-size: 26px;
+    }
+
+    
+
+    .row {
+        gap: 13px;
+    }
+
+    .right ul {
+        & li a i {
+            font-size: 16.5px;
+        }
+    }
+
+    .plus-minus {
+        padding: 0;
+    }
+
+    .addd {
+        padding: 6.6px 0;
+        font-size: 14px;
+    }
+
+    .txxt {
+        font-size: 17px;
+    }
+
+    .left ul {
+        font-size: 17.5px;
+    }
+}
