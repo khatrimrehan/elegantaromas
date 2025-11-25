@@ -46,6 +46,9 @@
 
 @media (max-width: 640px) {
    
+    .content22{
+        width: 98%;
+    }
 
     .row {
         gap: 9.7px;
