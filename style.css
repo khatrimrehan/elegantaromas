@@ -17,6 +17,23 @@
   /* Removes the highlight */
 }
 
+:root{
+  --body-back-groundcolor: rgb(255, 255, 255);
+  --product-textcolor: #0d0d0d;
+  --product-text2color: #272727;
+  --write-back-groundcolor: #E1E8ED;
+  --write-textcolor: #121212;
+  --footer-back-groundcolor: #1F4E79;
+  --footer-textcolor: rgb(255, 255, 255);
+  --footer-text2color: #eef2f7c9;
+  --footer-placeholder-color:#f9fcffac;
+}
+
+
+body{
+  background-color: var(--body-back-groundcolor);
+}
+
 .home {
 
   padding-top: 50px;
@@ -148,7 +165,8 @@ padding-right: 46px;
 }
 
 .home {
-  color: white;
+  
+  color: rgb(255, 255, 255);
 }
 
 .content {
@@ -187,7 +205,7 @@ padding-right: 46px;
 
 .products a {
   text-decoration: none;
-  color: #0d0d0d;
+  color: var(--product-textcolor);
   padding: 3px;
 
   transition: ease 400ms all;
@@ -209,7 +227,7 @@ padding-right: 46px;
 .products .heading h5 {
   font-size: 24px;
 
-  color: black;
+  color: var(--product-textcolor);
   padding-bottom: 30px;
 }
 
@@ -374,12 +392,13 @@ padding-right: 46px;
 .txt-1 {
   font-size: 18px;
   letter-spacing: 0.7px;
+  font-weight: 500;
 }
 
 .txt-2 {
   font-size: 12px;
   letter-spacing: 0.3px;
-  color: #272727;
+  color: var(--product-text2color);
 }
 
 
@@ -492,7 +511,7 @@ padding-right: 46px;
   width: 100%;
   margin: auto;
   line-height: 42px;
-  color: #121212;
+  color: var(--write-textcolor);
 
   text-align: center;
 }
@@ -500,16 +519,17 @@ padding-right: 46px;
 .shop a {
   text-decoration: none;
   font-size: 16px;
+  word-spacing: 7px;
 
-  color: #121212;
+  color: var(--write-textcolor);
 }
 
 .clr {
-  background-color: #E1E8ED;
+  background-color: var(--write-back-groundcolor);
 }
 
 .color {
-  background-color: #1F4E79;
+  background-color: var(--footer-back-groundcolor);
   height: 100%;
 }
 
@@ -546,7 +566,7 @@ padding-right: 46px;
 
   & .main-hd a {
     text-decoration: none;
-    color: white;
+    color: var(--footer-textcolor);
 
     font-size: 17px;
     font-weight: 700;
@@ -568,7 +588,7 @@ padding-right: 46px;
     align-items: start;
 
     & a {
-      color: #eef2f7c9;
+      color: var(--footer-text2color);
       text-decoration: none;
 
       font-size: 13px;
@@ -622,7 +642,7 @@ padding-right: 46px;
 
   & .main-hd-1 a {
     text-decoration: none;
-    color: white;
+    color: var(--footer-textcolor);
 
     font-size: 17px;
     font-weight: 700;
@@ -688,7 +708,7 @@ padding-right: 46px;
 }
 
 ::placeholder {
-  color: #f9fcffac;
+  color: var(--footer-placeholder-color);
   font-size: 15px;
 }
 
