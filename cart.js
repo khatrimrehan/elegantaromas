@@ -32,6 +32,54 @@ let productArr = [
         name: "Davidoff",
         price: 1499.99,
         image: "fragrance-product-3.webp"
+    },
+    {
+        id: 5,
+        name: "Armani Acqua di Giò",
+        price: 2699.99,
+        image: "https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGVyZnVtZXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        id: 6,
+        name: "Tom Ford Oud Wood",
+        price: 4999.99,
+        image: "https://images.unsplash.com/photo-1583545889266-55be2d76c6c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTcxfHxwZXJmdW1lfGVufDB8fDB8fHww"
+    },
+    {
+        id: 7,
+        name: "YSL Y Eau de Parfum",
+        price: 2899.99,
+        image: "https://images.unsplash.com/photo-1547887537-6158d64c35b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBlcmZ1bWV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        id: 8,
+        name: "Creed Aventus",
+        price: 7999.99,
+        image: "https://images.unsplash.com/photo-1705338670422-01133208eab9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHBlcmZ1bWV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        id: 9,
+        name: "Zara Rabanne 1 Million",
+        price: 2399.99,
+        image: "https://images.unsplash.com/photo-1582211594533-268f4f1edcb9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHBlcmZ1bWV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        id: 10,
+        name: "Azzaro The Most Wanted",
+        price: 2599.99,
+        image: "https://images.unsplash.com/photo-1676951334972-2e65e67f4cbe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fHBlcmZ1bWV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        id: 11,
+        name: "Jean Paul Gaultier Le Male",
+        price: 2499.99,
+        image: "https://images.unsplash.com/photo-1608528577891-eb055944f2e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fHBlcmZ1bWV8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        id: 12,
+        name: "Bvlgari Man in Black",
+        price: 3299.99,
+        image: "https://images.unsplash.com/photo-1706924179763-7f2744656823?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE5fHxwZXJmdW1lfGVufDB8fDB8fHww"
     }
 ];
 

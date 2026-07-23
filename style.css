@@ -93,9 +93,11 @@ body {
   height: 1px;
   width: 90%;
   background-color: #000;
-
 }
 
+#close-btn{
+  cursor: pointer;
+}
 .cart-items {
   margin-top: 20px;
   display: flex;
@@ -570,7 +572,8 @@ body {
 .box1 {
 
   background-repeat: no-repeat;
-  background-size: cover;
+  object-fit: cover;
+  background-position: center center;
 
   height: 422px;
   width: 432px;
