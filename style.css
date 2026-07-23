@@ -572,8 +572,8 @@ body {
 .box1 {
 
   background-repeat: no-repeat;
+ 
   object-fit: cover;
-  background-position: center center;
 
   height: 422px;
   width: 432px;
@@ -638,10 +638,6 @@ body {
 
 
 .txt-1 {
-  
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   font-size: 18px;
   letter-spacing: 0.7px;
   font-weight: 500;
